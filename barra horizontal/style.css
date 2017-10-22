@@ -1,0 +1,38 @@
+/*color de fondo #2e2e2a
+/*color de hover #f9a91a*/
+body {
+	font-family: sans-serif;
+}
+nav{
+	/*outline: 1px solid yellow;*/
+}
+
+ul{
+	/*outline: 1px solid blue;*/
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	background:#2e2e2a; 
+	line-height: 40px;
+	overflow:auto;
+}
+
+li{
+	/*outline:1px solid red;*/
+	/*display: inline-block;*/
+	text-align: center;
+	width: 100px;
+	float:left;
+}
+
+a{
+	/*outline: 1px solid green;*/
+	text-decoration: none;
+	display: block;
+	color:#fff;
+}
+
+a:hover{
+	background: #f9a91a;
+	color:#000;
+}
